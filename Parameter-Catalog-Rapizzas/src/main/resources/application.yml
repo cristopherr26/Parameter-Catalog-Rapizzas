@@ -1,16 +1,15 @@
 spring:
-  application:
-    name: parameter-catalog-rapizzas
+    application:
+        name: parameter-catalog-rapizzas
 
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/cristopherr26/Parameter-Catalog-Rapizzas
-          default-label: main
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/cristopherr26/Parameter-Catalog-Rapizzas
+                    default-label: main
+                    
+                        
 
 server:
-  port: 2611
-
-
-
+    port: 2111

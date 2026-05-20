@@ -1,39 +1,37 @@
 validation:
-  format:
-    email: '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'
+    format:
+        email: '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'
 
-    document-number: '^[A-Za-z0-9]+$'
+        document-number: "^[A-Za-z0-9]+$"
 
-    first-name: '^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$'
+        first-name: "^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$"
 
-    middle-name: '^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$'
+        middle-name: "^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$"
 
-    last-name: '^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$'
+        last-name: "^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$"
 
-    second-last-name: '^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$'
+        second-last-name: "^[A-Za-zÁÉÍÓÚáéíóúÑñÜü]+$"
 
-    password: '^(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%&*?\\-_])[A-Za-z\\d!@#$%&*?\\-_]{8,15}$'
+        password: '^(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%&*?\\-_])[A-Za-z\\d!@#$%&*?\\-_]{8,15}$'
 
-  length:
-    password-min: 8
-    password-max: 15
+    length:
+        password-min: 8
+        password-max: 15
 
-    document-number-min: 8
-    document-number-max: 12
+        document-number-min: 8
+        document-number-max: 12
 
-    first-name-min: 3
-    first-name-max: 25
+        first-name-min: 3
+        first-name-max: 25
 
-    middle-name-min: 3
-    middle-name-max: 25
+        middle-name-min: 3
+        middle-name-max: 25
 
-    last-name-min: 2
-    last-name-max: 25
+        last-name-min: 2
+        last-name-max: 25
 
-    second-last-name-min: 2
-    second-last-name-max: 25
+        second-last-name-min: 2
+        second-last-name-max: 25
 
-    email-min: 10
-    email-max: 50
-	
-	
+        email-min: 10
+        email-max: 50
