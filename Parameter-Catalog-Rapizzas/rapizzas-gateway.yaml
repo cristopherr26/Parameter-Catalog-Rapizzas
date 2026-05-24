@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: rapizzas-employee
+          uri: https://rapizzas-ing-soft-ii.onrender.com
+          predicates:
+            - Path=/api/rapizzas/employee/**
+
+        - id: rapizzas-id-type
+          uri: https://rapizzas-ing-soft-ii.onrender.com
+          predicates:
+            - Path=/api/rapizzas/id-type/**
+
+        - id: rapizzas-role
+          uri: https://rapizzas-ing-soft-ii.onrender.com
+          predicates:
+            - Path=/api/rapizzas/role/**
+
+        - id: rapizzas-pizzeria
+          uri: https://rapizzas-ing-soft-ii.onrender.com
+          predicates:
+            - Path=/api/rapizzas/pizzeria/**
+
+        - id: rapizzas-auth
+          uri: https://rapizzas-ing-soft-ii.onrender.com
+          predicates:
+            - Path=/api/rapizzas/auth/**
