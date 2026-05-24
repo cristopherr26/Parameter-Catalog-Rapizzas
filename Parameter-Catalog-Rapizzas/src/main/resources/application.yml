@@ -8,8 +8,7 @@ spring:
                 git:
                     uri: https://github.com/cristopherr26/Parameter-Catalog-Rapizzas
                     default-label: main
-                    search-paths:
-                        - Parameter-Catalog-Rapizzas
+                    
 
 server:
     port: 2111
